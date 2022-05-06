@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcular HMax</title>
+</head>
+<body class="cinza">
+<h1 class="letraRoxo">Altura Máxima</h1>
+<h2>Exercício de introdução a Javascript</h2>
+    <div>
+        <h3 class="letraAzul">Cálculo de altura máxima e tempo de subida</h3>
+        <label> Entrada do Valor 1:
+            <input type="text" name="valor1" id="velocidadeI" ><br>
+        </label>
+    </div>
+    <button onclick="calcularvelocidade()">Calcular</button>
+    <div>   <span id="m"></span><br> <br>
+        <span id="t"></span></div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+    <script>
+        var velIni = document.querySelector("#velocidadeI")
+        var gravidade = 10
+        var metros = document.querySelector("#m")
+        var temp = document.querySelector("#t")
+        function calcularvelocidade() {
+            var tempo = parseInt(velIni.value)/gravidade;
+            var hmax = parseInt(velIni.value ** 2)/ parseInt(2*gravidade);
+            metros.innerHTML = String("Altura Máxima= ") + hmax
+            temp.innerHTML = String("Tempo = ") + tempo
+        }
+    </script>
+</html>
