@@ -1,0 +1,27 @@
+.roxo{
+    background-color: rgb(191, 130, 248);
+}
+
+.verde{
+    background-color: rgb(127, 252, 177);
+}
+
+.azul{
+    background-color: rgb(170, 170, 255);
+}
+
+.cinza{
+    background-color: rgb(221, 209, 226);
+}
+
+.letraAzul{
+    color: rgb(6, 6, 153);
+}
+
+.letraRoxo{
+    color: rgb(91, 0, 0);
+}
+
+.fonte{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
