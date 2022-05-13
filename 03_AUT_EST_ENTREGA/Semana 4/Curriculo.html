@@ -15,9 +15,9 @@
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <img src="C:\Users\Inteli\Documents\g\assets\20220411_132858.jpg"  class="grow responsive">>
-               
+                <button type="button" onclick="myFunction()">Click Me!</button>
                 <div class="roxo">
-                    <h1 class="fonte">Gustavo Monteiro</h1>
+                    <h1 class="fonte" id="demo">Gustavo Monteiro</h1>
                     <h3>Brasileiro, 28 anos</h3>
                     <h3>São Paulo, SP</h3>
                 </div>
@@ -79,6 +79,16 @@
                 <h5>Teste h5</h5>
                 <h6>Teste h6</h6>
                 <P>Teste p</P>    
+                <script>
+const setBg = () => {
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  document.body.style.backgroundColor = "#" + randomColor;
+  color.innerHTML = "#" + randomColor;
+}
+
+genNew.addEventListener("click", setBg);
+setBg();
+                </script>
           
                 
           
