@@ -1,0 +1,78 @@
+.roxo{
+    background-color: rgb(191, 130, 248);
+}
+
+.verde{
+    background-color: rgb(127, 252, 177);
+}
+
+.azul{
+    background-color: rgb(170, 170, 255);
+}
+
+.cinza{
+    background-color: rgb(221, 209, 226);
+}
+
+.letraAzul{
+    color: rgb(6, 6, 153);
+}
+
+.letraRoxo{
+    color: rgb(91, 0, 0);
+}
+
+.fonte{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    	transform: scale(1.05); 
+    }
+
+.box {
+        background-color: rgb(0, 0, 0);
+        /* height: 50px;
+        width: 100px; */
+        padding: 1em;
+        color: #fff;
+        font-weight: bold;
+        transition: background-color 3s linear;
+        -webkit-transition: background-color 3s linear;
+        -o-transition: background-color 3s linear;
+        -moz-transition: background-color 3s linear;
+        -ms-transition: background-color 3s linear;
+      }
+      @keyframes hoverme {
+        0% {
+          background-color: rgb(255, 0, 0);
+        }
+        25% {
+          background-color: rgb(0, 242, 255);
+        }
+        50% {
+          background-color: rgb(255, 0, 251);
+        }
+        25% {
+          background-color: rgb(0, 255, 21);
+        }
+        100% {
+          background-color: rgb(68, 0, 255);
+        }
+      }
+
+.button50-formularios-controle {border-radius: 50px;}
+
+.box:hover {
+        animation: hoverme .5s infinite;
+      }
