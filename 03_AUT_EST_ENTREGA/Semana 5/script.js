@@ -1,5 +1,9 @@
-
-
+  function myFunction() {
+    // document.getElementById("demo").style.fontSize = "25px"; 
+    document.getElementById("demo").style.color =  getRandomColor();
+    document.getElementById("demo").style.backgroundColor =  getRandomColor();        
+  
+  };
 
   function getRandomColor() {
     var letters = '0123456789ABCDEF';
@@ -8,9 +12,4 @@
       color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
-  }
-  function myFunction() {
-    // document.getElementById("demo").style.fontSize = "25px"; 
-    $("#demo").style.color = "red";
-    document.getElementById("demo").style.backgroundColor = "yellow";        
   }

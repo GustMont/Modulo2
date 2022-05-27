@@ -71,8 +71,41 @@
         }
       }
 
-.button50-formularios-controle {border-radius: 50px;}
-
 .box:hover {
         animation: hoverme .5s infinite;
       }
+
+.box2 {
+        background-color: rgb(0, 0, 0);
+        /* height: 50px;
+        width: 100px; */
+        padding: 1em;
+        color: #fff;
+        font-weight: bold;
+        transition: background-color 3s linear;
+        -webkit-transition: background-color 3s linear;
+        -o-transition: background-color 3s linear;
+        -moz-transition: background-color 3s linear;
+        -ms-transition: background-color 3s linear;
+        animation: hoverme .5s infinite;
+      }
+      @keyframes hoverme {
+        0% {
+          background-color: rgb(255, 0, 0);
+        }
+        25% {
+          background-color: rgb(0, 242, 255);
+        }
+        50% {
+          background-color: rgb(255, 0, 251);
+        }
+        25% {
+          background-color: rgb(0, 255, 21);
+        }
+        100% {
+          background-color: rgb(68, 0, 255);
+        }
+      }
+
+
+.button50-formularios-controle {border-radius: 50px;}
