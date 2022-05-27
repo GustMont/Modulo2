@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="exercicio1.js"></script>
+    <title>Calcular numeros</title>
+</head>
+<body>
+    <h1>Informe dois números:</h1>
+    <form>
+        <label>Primeiro Numero:
+           <input type="text" name="primeiroNumero" id="primeiro"><br>
+        </label><br>
+
+        <label> Segundo Numero:
+          <input type="text" name="segundoNumero" id="segundo"><br>
+        </label><br>
+      </form>
+
+      <form>
+          <h2>Selecione o cálculo que deseja fazer:</h2>
+          <input type="radio" id="calc1" name="escolhaCalc" value="soma">
+          <label for="soma">soma</label><br>
+          <input type="radio" id="calc2" name="escolhaCalc" value="subtracao">
+          <label for="subtracao">subtracao</label><br>
+          <input type="radio" id="calc3" name="escolhaCalc"  value="multiplicacao">
+          <label for="multiplicacao">multiplicacao</label><br>
+          <input type="radio" id="calc4" name="escolhaCalc"  value="divisao">
+          <label for="divisao">divisao</label><br>
+          <input type="radio" id="calc5" name="escolhaCalc"  value="">
+          <label for="naosei">//</label><br>
+          <input type="radio" id="calc6" name="escolhaCalc"  value="mod">
+          <label for="mod">mod</label><br>
+      </form> 
+    <div>
+      <button onclick="calcular()">Calcular</button>
+    </div> 
+
+    <div>
+      <p>Resultado:</p>
+      <output id="mostrarResultado"></output>
+    </div>
+</body>
+
+
+</html>
