@@ -8,6 +8,8 @@
     <title>Calcular numeros</title>
 </head>
 <body>
+
+  <!-- Estrutura para colher os numeros a partir do usuario -->
     <h1>Informe dois números:</h1>
     <form>
         <label>Primeiro Numero:
@@ -19,6 +21,7 @@
         </label><br>
       </form>
 
+      <!-- Bloco com uma cadeia de selecao do tipo radio -->
       <form>
           <h2>Selecione o cálculo que deseja fazer:</h2>
           <input type="radio" id="calc1" name="escolhaCalc" value="soma">
@@ -29,8 +32,7 @@
           <label for="multiplicacao">multiplicacao</label><br>
           <input type="radio" id="calc4" name="escolhaCalc"  value="divisao">
           <label for="divisao">divisao</label><br>
-          <input type="radio" id="calc5" name="escolhaCalc"  value="">
-          <label for="naosei">//</label><br>
+
           <input type="radio" id="calc6" name="escolhaCalc"  value="mod">
           <label for="mod">mod</label><br>
       </form> 
@@ -38,6 +40,7 @@
       <button onclick="calcular()">Calcular</button>
     </div> 
 
+    <!-- Estrutura para mostrar o resultado na tela -->
     <div>
       <p>Resultado:</p>
       <output id="mostrarResultado"></output>

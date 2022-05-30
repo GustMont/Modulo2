@@ -21,9 +21,7 @@ function calcular() {
     else if (operador=="divisao"){
         resultado = p / s;
     }
-    else if (operador=="naosei"){
-        resultado = p / s;
-    }
+
     else{
         resultado = p%s
     }

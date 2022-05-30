@@ -40,7 +40,7 @@
            p -= 1;
            dois += 1;
        }
-       var mostra = " nota de cem: "+ cem +" nota de cinquenta "+cinquenta+ " nota de vinte:"+vinte+" nota de dez:" +dez+" nota de cinco:" +cinco+" nota de dois:"+ dois+" nota de um:"+ um   
+       var mostra = cem +" notas de cem, "+ cinquenta+" notas de cinquenta, "+ vinte+" notas de vinte, "+dez+" notas de dez, " +cinco+" notas de cinco, " +dois+" notas de dois, "+ um+" notas de um."    
 
        document.getElementById("mostra").innerHTML=mostra
     }
