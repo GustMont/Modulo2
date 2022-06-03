@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ex4sem7.js"></script>
+    <title>Exercicio 4 - passagens</title>
+</head>
+<body>
+    <h1>Calculo de passagens</h1>
+    <label>Passagem para quantas pessoas? 
+    <input type="num" id="quantidade">
+    </label>
+
+    <!-- estrutura de escolha do periodo em formato "radio" -->
+    <form>
+        <h2>Selecione o período:</h2>
+        <input type="radio" id="periodo1" name="periodoSelec" value="diurno">
+        <label for="diurno">diurno</label><br>
+        <input type="radio" id="periodo2" name="periodoSelec" value="noturno">
+        <label for="noturno">noturno</label><br>
+    </form>
+
+    <button onclick="calc()">Calcular total</button>
+
+    <div>
+        <p>Valor total:</p>
+        <output id="mostra"></output> 
+    </div>
+</body>
+</html>
