@@ -1,18 +1,19 @@
-  function myFunction() {
-    // document.getElementById("demo").style.fontSize = "25px"; 
+
+// Estrutura para mudar a cor de forma randomizada
+function myFunction() {
     $("#demo").css('color',getRandomColor());
     $("#demo").css('background',getRandomColor());       
+};
 
-  };
-
-  function getRandomColor() {
+// Estrutura para criar uma cor a partir de caracteres e números aleatórios
+function getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
     for (var i = 0; i < 6; i++) {
       color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
-  }
+}
 
   var getResDiv = "#get";
   var getDBResDiv = "#getDB";

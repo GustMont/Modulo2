@@ -1,3 +1,4 @@
+/* Estruturas para mudar a cor da caixa onde os textos vão ficar */
 .roxo{
     background-color: rgb(191, 130, 248);
 }
@@ -22,24 +23,27 @@
     color: rgb(91, 0, 0);
 }
 
+/* Mudar a fonte do texto */
 .fonte{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Colocar responsividade em imagens */
 .responsive {
     width: 100%;
     max-width: 400px;
     height: auto;
-  }
+}
 
+/* Comando para fazer imagens ficarem maiores ao passar o mouse por cima */
 .grow { 
 	transition: all .2s ease-in-out; 
 }
-
 .grow:hover { 
     	transform: scale(1.05); 
-    }
+}
 
+/* Codigo para mudar a cor de um botão em modo infinito enquanto o mouse estiver em cima */
 .box {
         background-color: rgb(0, 0, 0);
         /* height: 50px;
@@ -105,11 +109,12 @@
         100% {
           background-color: rgb(68, 0, 255);
         }
-      }
+}
 
-
+/* Mudar formato de um botão */
 .button50-formularios-controle {border-radius: 50px;}
 
+/* Cor do botão que vai integrar com banco de dados */
 #get{
   color: #a34f74;
 }
