@@ -7,18 +7,22 @@ function ParOuImpar(){
     var n = parseInt(num.value);
     console.log(n);
 
+    // estrutura while para subtrair o valor apenas da centena
     while (n >= 100){
         n -= 100;
         cem += 1;
     }
     console.log(cem);
 
+    // estutura para identificar se o número da variável é par ou ímpar
     if (cem % 2 == 0){
         result = cem + " é par!";
     }
     else {
         result = cem + " é impar!"
     }
+
+    // comando para permitir que o html acesse o valor da variável
     console.log(result)
     document.getElementById("result").innerHTML=result
 }

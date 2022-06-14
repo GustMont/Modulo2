@@ -8,13 +8,20 @@
     <title>Par ou Ímpar?</title>
 </head>
 <body>
+    <!-- estrutura para coletar o número que o usuário digitar -->
     <label>
-    <h1>Vamos ver se o número da centena é par ou ímpar</h1>
-    <h2>Digite um número com três dígitos:</h2>
-    <input type="number" min="100" max="999" placeholder="000" id="numeroDigi">
+        <h1>Vamos ver se o número da centena é par ou ímpar</h1>
+        <h2>Digite um número com três dígitos:</h2>
+        <!-- input com o tipo que vai receber (numero)
+        um número mínimo sendo 100 e no máximo 999
+        um placeholder para indicar ao usuário o que ele pode digitar um número com 3 dígitos
+        e um id do input -->
+        <input type="number" min="100" max="999" placeholder="000" id="numeroDigi">
     </label>
+    <!-- botão para chamar a função do javascript -->
     <button onclick="ParOuImpar()">Par ou Ímpar?</button>
 
+    <!-- estutura para chamar o resultado a partir da variável do javascript e mostrar na tela -->
     <div>
         <p>Resultado:</p>
         <output id="result"></output>
