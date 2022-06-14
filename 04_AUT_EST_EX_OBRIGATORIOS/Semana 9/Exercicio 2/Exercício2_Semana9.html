@@ -5,9 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="Exercicio2_Semana9.js"></script>
-    <title>Document</title>
+    <title>Soma de números digitados</title>
 </head>
 <body>
-    
+<label>
+    <h1>Vamos somar os números entre os dígitos indicados</h1>
+    <h2>Digite um número:</h2>
+    <!-- input para colher numero digitado com o minimo zero(0) para excluir numeros negativos e mostrar o placeholder como zero(0) para indicar o valor minimo -->
+    <input type="number" min="0" placeholder="0" id="typedStringNumbers">
+</label>
+    <button onclick="SumNumbers()">Somar!</button><br>
+
+    <!-- div para mostrar resultado na tela -->
+    <div>
+        <p>Resultado:</p>
+        <output id="result"></output>
+    </div>
+
+    <!-- estrutura para continuar a soma dos números digitados -->
+    <h4>Que tal reduzir mais ainda o resultado?</h4>
+    <button onclick="FurtherSumNumbers()">Somar resultado até reduzir!</button>
+
+        <!-- div para mostrar segundo resultado na tela -->
+    <div>
+        <p>Resultado:</p>
+        <output id="secondResult"></output>
+    </div>
+
 </body>
 </html>
