@@ -1,4 +1,4 @@
-//Implementação de  uma estrutura de ordenação no formato Bubble Sort
+//Implementação de uma estrutura de ordenação no formato Bubble Sort
 
 //Criando a função para o Bubble Sort
 function SortNames() {
