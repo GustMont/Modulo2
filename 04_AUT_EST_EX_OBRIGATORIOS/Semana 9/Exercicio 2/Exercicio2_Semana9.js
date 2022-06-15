@@ -11,7 +11,7 @@ function SumNumbers(){
     var sNum = parseInt(stringNumbers.value);
     console.log(sNum);
     
-// estrutura para ordenar a string de numeros em uma array
+// estrutura para armazenar a string de numeros em uma array
     let listOfNumbers = num => Number(num);
 
     var numArray = Array.from(String(sNum), listOfNumbers);
