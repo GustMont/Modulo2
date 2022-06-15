@@ -5,9 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="Exercicio3_Semana9.js"></script>
-    <title>Document</title>
+    <title>Ordena Nomes</title>
 </head>
 <body>
-    
+    <h1>Vamos ordenar os nomes</h1>
+    <h2>Digite três nomes:</h2>
+
+    <!-- Estruturas para receber texto digitado-->
+    <label>
+        <input type="text" placeholder="Patrick" id="firstName">
+    </label>
+
+    <label>
+        <input type="text" placeholder="Jonas" id="secondName">
+    </label>
+
+    <label>
+        <input type="text" placeholder="Felipe" id="thirdName">
+    </label>
+
+    <!-- Botão para chamar a função SortNames() do javascript -->
+    <button onclick="SortNames()">Ordenar!</button><br>
+
+    <!-- div para mostrar resultado na tela -->
+    <div>
+        <p>Resultado da ordenação:</p>
+        <output id="result"></output>
+    </div>
 </body>
 </html>
