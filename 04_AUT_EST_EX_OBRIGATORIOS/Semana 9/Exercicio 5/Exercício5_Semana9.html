@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="Exercicio5_Semana9.js"></script>
-    <title>Document</title>
+    <title>Números primos!</title>
 </head>
 <body>
     
+    <label>
+        <h1>Encontrando os primos (entre dois números informados)</h1>
+        <h2>Digite um número:</h2>
+        <!-- input para colher um numero digitado sendo no minimo zero(0)-->
+        <input type="number"  id="inicialNumber" min="0" placeholder="0">
+
+        <h2>Digite um número:</h2>
+        <!-- input para colher um segundo numero digitado sendo no minimo zero(0)-->
+        <input type="number"  id="finalNumber" min="0" placeholder="0">
+    </label>
+
+        <!-- botao para chamar a funcao primeNumbers() -->
+        <button onclick="primeNumbers()">Gerar!</button><br>
+    
+        <!-- div para mostrar resultado na tela -->
+        <div>
+            <p>Sequência gerada:</p>
+            <output id="result"></output>
+        </div>
+    
+
 </body>
 </html>

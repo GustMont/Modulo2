@@ -9,18 +9,18 @@
 </head>
 <body>
     <label>
-        <h1></h1>
-        <h2>Digite um número:</h2>
-        <!-- input para colher um numero digitado-->
-        <input type="number"  id="aNumber">
+        <h1>Gerar a sequência de Fibonacci</h1>
+        <h2>Digite um número até onde deseja que a sequência seja gerada:</h2>
+        <!-- input para colher um numero digitado com o mínimo sendo zero(0)-->
+        <input type="number"  id="aNumber" min="0" placeholder="0">
     </label>
 
         <!-- botao para chamar a funcao fibonacciNumbersGen() -->
-        <button onclick="fibonacciNumbersGen()">Somar!</button><br>
+        <button onclick="fibonacciNumbersGen()">Gerar sequência!</button><br>
     
         <!-- div para mostrar resultado na tela -->
         <div>
-            <p>Resultado:</p>
+            <p>Sequência gerada:</p>
             <output id="result"></output>
         </div>
     
